@@ -29,6 +29,6 @@ const GoodsState = seq.define('m_goods_state', {
   },
 })
 
-GoodsState.sync({ force: true })
+//GoodsState.sync({ force: true })
 
 module.exports = GoodsState
