@@ -5,7 +5,7 @@ const { validEditPlace } = require('../middleware/validator.middleware')
 
 const { create, update, remove, find } = require('../service/place.service')
 
-const router = new Router({ prefix: '/place' })
+const router = new Router({ prefix: '/api/place' })
 
 router.post('/', auth, isAdmin, validEditPlace, create)
 

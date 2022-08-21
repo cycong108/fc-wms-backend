@@ -5,7 +5,7 @@ const { validEditGoods } = require('../middleware/validator.middleware')
 
 const { create, update, remove, find } = require('../service/goods.service')
 
-const router = new Router({ prefix: '/goods' })
+const router = new Router({ prefix: '/api/goods' })
 
 router.post('/', auth, isAdmin, validEditGoods, create)
 
