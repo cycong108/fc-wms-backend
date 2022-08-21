@@ -1,6 +1,6 @@
 const auth = async (ctx, next) => {
     const user = {
-        user_code: 'cong',
+        user_code: 'visitor',
         user_name: 'visitor',
         is_admin: true
     }

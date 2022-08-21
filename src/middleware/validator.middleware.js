@@ -54,10 +54,10 @@ const validEditGoods = async (ctx, next) => {
       spec: { type: 'string', required: true },
       goods_type_id: { type: 'int', required: true },
       place_id: { type: 'int', require: true },
-      brand: { type: 'string', require: false },
+      //brand: { type: 'string', require: false },
       default_vendor_id: { type: 'int', require: true },
-      parameters: { type: 'string', require: false },
-      unit: { type: 'string', require: false },
+      //parameters: { type: 'string', require: false },
+      //unit: { type: 'string', require: false },
       price: { type: 'number', require: false },
       default_qty: { type: 'int', require: false },
     })
